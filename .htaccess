@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^404yun.tk$ [NC]
+
+RewriteCond %{HTTP_HOST} ^podo.ga$ [NC]
+
+RewriteCond %{HTTP_HOST} ^jaja.cf$ [NC]
+
+RewriteCond %{HTTP_HOST} ^haaa.ga$ [NC]
+
+RewriteCond %{HTTP_HOST} ^fxxk.design$ [NC]
+
+RewriteRule ^(.*)$ http://404guy.com/$1 [R=301,L]
+
+</IfModule>
